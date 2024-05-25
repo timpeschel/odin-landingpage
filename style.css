@@ -31,3 +31,7 @@ header{
     text-decoration:none;
 }
 
+#hero_section{
+    display:flex;
+}
+
