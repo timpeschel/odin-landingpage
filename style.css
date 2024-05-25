@@ -49,8 +49,6 @@ header{
 
 .hero_left{
     padding-right:9px;
-    /* display:flex;
-    flex-direction:column; */
 }
 
 .hero_left > *{
