@@ -3,7 +3,7 @@ html, body{
     font-family: "Roboto", sans-serif;
 }
 
-header, #hero, footer{
+header, #hero_section, footer{
     background-color:#1F2937;
     color:#F9FAF8;
 }
@@ -33,5 +33,13 @@ header{
 
 #hero_section{
     display:flex;
+    font-size:18px;
+}
+
+.grey_box{
+    background-color:#707070;
+    display:flex;
+    justify-content: center;
+    /* padding:20px auto 20px auto; soll in die Mitte */
 }
 
