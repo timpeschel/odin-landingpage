@@ -1,4 +1,5 @@
-html, body{
+html, body, *{
+    box-sizing: border-box; 
     margin:0;
     font-family: "Roboto", sans-serif;
 }
@@ -10,20 +11,25 @@ header, #hero_section, footer{
 
 header{
     display:flex;
+    justify-content:space-between;
+    padding:9px 0 60px 0;;
 }
 
 #header_logo{
+    margin-left:10%;
     font-size: 24px;
 }
 
 .top_nav{
-     /* padding:0 auto 0 auto;ul hat noch oben und unten nervige Abstände */
     list-style-type:none;
     display:inline;
+    padding:0;
+    margin-right:10%;
 }
 
 .top_nav li{
     display:inline;
+    margin-left:9px;
 }
 
 .top_nav li a{
@@ -31,19 +37,36 @@ header{
     text-decoration:none;
 }
 
+/* #### HERO #### */
+
 #hero_section{
-    width:1000px;
+    width:100%;
     display:flex;
+    justify-content:space-between;
+    padding:9px 10% 9px 10%;
     font-size:18px;
 }
 
+.hero_left{
+    padding-right:9px;
+}
+
+#hero_section h1{
+    font-weight: 700;
+    font-size:48px;
+    line-height:1em;
+}
+
 .grey_box{
+    width:50%;
     background-color:#707070;
     display:flex;
     flex-direction:column;
-    align-items: center;
-    /* padding:20px auto 20px auto; soll in die Mitte */
+    justify-content:center;
+    text-align:center;
 }
+
+/* #### INFO #### */
 
 #info_section{
     display:flex;
@@ -53,10 +76,11 @@ header{
 
 .row{
     display:flex;
+    justify-content:space-between;
+    gap:9px;
 }
 
 #info_section figure{
-    width:140px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -64,6 +88,7 @@ header{
 }           /* figcaption muss auch zentriert werden, vllt mit gap? */
 
 .rounded_box{
+    width:140px;
     border:2px solid lightblue;
     border-radius:10px;
     height:180px;
