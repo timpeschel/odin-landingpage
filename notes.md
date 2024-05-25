@@ -1,3 +1,3 @@
 Nachschauen:
 * border-box modell
-* wie sehe ich, dass ich richtig lokal committet habe?
+* wie sehe ich, dass ich richtig lokal committet habe?  --> git log

@@ -54,6 +54,13 @@ header{
     display:flex;
 }
 
+#info_section figure{
+    width:120px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}           /* figcaption muss auch zentriert werden, vllt mit gap? */
+
 .rounded_box{
     border:2px solid lightblue;
     border-radius:5px;
