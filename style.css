@@ -39,7 +39,25 @@ header{
 .grey_box{
     background-color:#707070;
     display:flex;
-    justify-content: center;
+    flex-direction:column;
+    align-items: center;
     /* padding:20px auto 20px auto; soll in die Mitte */
+}
+
+#info_section{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.row{
+    display:flex;
+}
+
+.rounded_box{
+    border:2px solid lightblue;
+    border-radius:5px;
+    height:80px;
+    width:80px;
 }
 
