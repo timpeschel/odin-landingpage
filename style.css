@@ -32,6 +32,7 @@ header{
 }
 
 #hero_section{
+    width:1000px;
     display:flex;
     font-size:18px;
 }
@@ -55,16 +56,22 @@ header{
 }
 
 #info_section figure{
-    width:120px;
+    width:140px;
     display:flex;
     flex-direction:column;
     align-items:center;
+    font-size:18px;
 }           /* figcaption muss auch zentriert werden, vllt mit gap? */
 
 .rounded_box{
     border:2px solid lightblue;
-    border-radius:5px;
-    height:80px;
-    width:80px;
+    border-radius:10px;
+    height:180px;
+    width:180px;
+}
+
+#info_section figcaption{
+    display:block;
+    text-align:center;
 }
 
