@@ -49,6 +49,12 @@ header{
 
 .hero_left{
     padding-right:9px;
+    /* display:flex;
+    flex-direction:column; */
+}
+
+.hero_left > *{
+    margin-bottom:20px;
 }
 
 #hero_section h1{
