@@ -4,6 +4,10 @@ html, body, *{
     font-family: "Roboto", sans-serif;
 }
 
+section{
+    padding:20px 0;
+}
+
 header, #hero_section, footer{
     background-color:#1F2937;
     color:#F9FAF8;
@@ -89,7 +93,7 @@ header{
     flex-direction:column;
     align-items:center;
     font-size:18px;
-}           /* figcaption muss auch zentriert werden, vllt mit gap? */
+}
 
 .rounded_box{
     width:140px;
@@ -103,4 +107,6 @@ header{
     display:block;
     text-align:center;
 }
+
+/* #### Quote #### */
 
