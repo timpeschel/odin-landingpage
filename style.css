@@ -5,8 +5,10 @@ html, body, *{
 }
 
 section{
-    padding:20px 0;
+    padding:40px 0;
 }
+
+/* #### Header, NAV #### */
 
 header, #hero_section, footer{
     background-color:#1F2937;
@@ -82,6 +84,10 @@ header{
     align-items: center;
 }
 
+#info_section h2{
+    margin-bottom:1em;
+}
+
 .row{
     display:flex;
     justify-content:space-between;
@@ -110,3 +116,20 @@ header{
 
 /* #### Quote #### */
 
+#quote_section{
+    background-color:#E5E7EB;
+    padding:60px 12.5% 60px 12.5%;
+}
+
+blockquote p{
+    font-style:italic;
+    font-weight:200;
+    font-size:36px;
+}
+
+blockquote footer{
+    background-color:inherit;
+    color:inherit;
+    font-weight:bold;
+    text-align:right;
+}
